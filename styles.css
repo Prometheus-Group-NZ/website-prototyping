@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Sections */
+section {
+    padding: 40px 10%;
+    background: white;
+    margin-bottom: 20px;
+}
+
+/* Services */
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-item {
+    flex: 1;
+    background: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Industries */
+#industries ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#industries ul li {
+    background: #ddd;
+    margin: 5px auto;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+/* Gallery */
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Contact */
+#contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
